@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Filipe Galvão">
+    <meta name="description" content="Projeto de Gestão de Cadastro de Clientes e Produtos referente ao Desafio #2 da VTEX - Hiring Coders.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./imagens/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
+    <style>
+      .painel{
+        margin: 0px auto;
+        padding: 50px;
+    }    
+    </style>
+  
+</head>
+<body>
+    <header>
+        <div class=cabecalho>
+            <h1>Inventário Combate Suplementos</h1>
+            <img src="imagens/logoheader.jpg" alt="logotipo">
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="menu">
+                <a href="index.html">Início</a>
+                <a href="cadastrocliente.html">Cadastro Clientes</a>
+                <a style="background-color: white; color: black;" href="cadastroproduto.html">Cadastro Produtos</a>
+            </div>
+
+            <div class="painel">
+                <form class="form">
+                    <p>Dados do Produto</p>
+                    <fieldset class="produto">
+                        <label for="descricao">Descrição</label>
+                        <input class="prod" id="descricao" name="descricao" type="text"><br>
+
+                        <label for="marca">Marca</label>
+                        <input class="prod" id="marca" name="marca" type="text"><br>
+
+                        <label for="fornecedor">Fornecedor</label>
+                        <input class="prod" id="fornecedor" name="fornecedor" type="text"><br>
+
+                        <label for="preco_custo">Preço de Custo</label>
+                        <input class="prod" id="preco_custo" name="preco-custo" type="number" placeholder="R$"><br>
+
+                        <label for="preco_venda">Preço de Venda</label>
+                        <input class="prod" id="preco_venda" name="preco-venda" type="number">
+                    </fieldset>
+
+                    <h6>    
+                        <input id="cadastrar" type="submit" value="Cadastrar">
+                        <input id="apagar" type="reset" value="Limpar">
+                    </h6>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/script.js" type="text/javascript"></script>
+</body>
+
+<footer>
+    <div class="rodape">
+        <p>Copyright © 2021 | Filipe Galvão</p>
+    </div>
+</footer>
+
+</html>

@@ -1,0 +1,176 @@
+header, body, h1, img, div, a, footer, main{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+header .cabecalho{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; 
+    font-family: "Open Sans",sans-serif;
+}
+
+header .cabecalho img{
+    width: 200px;
+    padding-top: 0px;
+}
+
+header .cabecalho h1{
+    font-size: 30px;
+    font-weight: 900;
+    margin: 20px;
+    color: rgb(255, 255, 255);
+}
+
+body{
+    max-width: 800px;
+    margin: 0px auto;
+    background-image: url(../imagens/combatestore.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Open Sans",sans-serif;
+}
+.container{
+    display: flex;
+    width: 100%;
+    margin: 0px auto;
+    height: 470px;
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 100%;
+}
+.menu{
+    background-color: rgb(192, 112, 8);
+    border-radius: 10px 0 0 10px;
+}
+.menu a{
+    display: block;
+    width: 200px;
+    text-decoration: none;
+    height: 30px;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    margin: 0px auto;
+    padding-top: 15px;
+    border-radius: 10px 0 0 0;
+
+}
+
+.painel{
+    margin: 0px auto;
+    padding: 20px;
+
+}
+
+.painel p{
+    font-weight: 800;   
+    text-align: center;
+}
+
+.painel h3{
+    text-align: center;
+    line-height: 400px;
+}
+
+.painel form .cliente-endereco #endereco{
+    width: 83%;
+}
+
+.painel form .cliente-endereco #numero{
+    width: 10%;
+}
+
+.painel form .cliente-endereco #complemento{
+    width: 25%;
+}
+
+.painel form .cliente-endereco #bairro{
+    width: 22.8%
+}
+
+.painel form .cliente-endereco #estado{
+    width: 42%;
+}
+
+.painel form .cliente-endereco #referencia{
+    width: 81.6%;
+}
+
+
+input.prod{
+    display: inline-block;
+    width: 97%;
+}
+
+
+.painel form .cliente-pessoal #nome{
+    width: 73%;
+}
+
+.painel form .cliente-pessoal #datanasc{
+    width: 27%;
+}
+
+.painel form .cliente-pessoal #email{
+    width: 53.12%;
+}
+
+.painel h6{
+    text-align: center;
+}
+
+.painel h6 #enviar{
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.painel h6 #cadastrar{
+    
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+
+#cadastrar:hover{
+    background-color: rgb(243, 101, 82);
+    color:white;
+    
+}
+
+.painel h6 #apagar{
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#apagar:hover{
+    background-color: rgb(243, 101, 82);
+    color:white;
+}
+#enviar:hover{
+    background-color: rgb(243, 101, 82);
+    color:white;
+    
+}
+
+.rodape{
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
